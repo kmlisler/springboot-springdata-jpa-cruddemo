@@ -1,10 +1,8 @@
 package com.kamilisler.cruddemo.rest;
 
-import com.kamilisler.cruddemo.dao.EmployeeDAO;
 import com.kamilisler.cruddemo.entity.Employee;
 import com.kamilisler.cruddemo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
